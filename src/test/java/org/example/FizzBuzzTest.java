@@ -10,4 +10,9 @@ public class FizzBuzzTest {
         assertEquals("Fizz", FizzBuzzGame.play(3));
     }
     //
+
+    @Test
+    public void testFizzBuzz_5_ReturnsBuzz() {
+        assertEquals("Buzz", FizzBuzzGame.play(5));
+    }
 }
